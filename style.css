@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Rubik', sans-serif;
+    
+}
+body{
+    margin:0px 150px;
+    padding-bottom: 100px;
+}
+h1{
+    margin-top: 80px;
+}
+.tel-email{
+    display: flex;
+}
+.tele {
+    margin-right: 40px;
+}
+.heading {
+    color: blue;
+    margin: 30px 0px 20px 0px;
+}
+.bio {
+    display: flex;
+}
+.P-sum {
+    width: 500px;
+    margin-right: 160px;
+}
+.ps-1{
+    margin-bottom: 30px;
+}
+.expertise li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+.qual-1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+.date-1 {
+    margin-right: 40px;
+}
+.qual-2 {
+    display: flex;
+}
+.date-2 {
+    margin-right: 40px;
+}
+.sub-heading {
+    font-style: italic;
+    color: brown;
+}
+.teacher {
+    margin-bottom: 20px;
+}
+.NCCF {
+    margin-bottom: 20px;
+}
+.lab-1 {
+    margin-bottom: 20px;
+}
+.lab-2 {
+    margin-bottom: 20px;
+}
+.ref {
+    margin-top: 70px;
+}
+@media screen and (max-width: 768px){
+    body{
+        margin:50px 30px;
+        padding-bottom: 10px;
+    }
+    h1{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .tel-email{
+        display: block;
+    }
+    .bio{
+        display: flex;
+    }
+    .P-sum{
+        width: auto;
+        margin-right: 20px;
+    }
+    .ps-1{
+        margin-bottom: 10px;
+    }
+    .expertise li{
+        margin-bottom: 5px;
+    }
+    .heading{
+        margin: 10px 0px 0px 0px;
+    }
+    p{
+        font-size: 11px;
+    }
+    .e-list{
+        font-size: 11px;
+    }
+    .ref{
+        margin-top: 10px;
+    }
+}
